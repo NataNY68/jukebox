@@ -13,10 +13,11 @@
     "db:reset": "npm run db:schema && npm run db:seed"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "pg": "^8.14.1"
+    "express": "^5.2.1",
+    "pg": "^8.18.0"
   },
   "devDependencies": {
+    "@faker-js/faker": "^10.2.0",
     "supertest": "^7.1.0",
     "vitest": "^3.1.1"
   },
